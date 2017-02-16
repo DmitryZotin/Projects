@@ -1,0 +1,48 @@
+@import "foudation/foundation";
+
+@include foundation-global-styles();
+@include foundation-grid();
+@include foundation-button();
+@include foundation-forms();
+@include foundation-text-alignment();
+@include foundation-float-classes();
+@include foundation-visibility-classes();
+
+html, body
+{
+  height: 100%;
+}
+
+.page {
+
+}
+
+.page__wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+* html .page__wrapper {
+  height: 100%;
+}
+
+.page__buffer {
+  height: 50px;
+}
+
+footer {
+  .logo {
+    a {
+
+    }
+  }
+  .copy {
+    span {
+
+    }
+  }
+}
+
+footer .logo a {
+
+}
