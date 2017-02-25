@@ -7,6 +7,9 @@
 @include foundation-text-alignment();
 @include foundation-float-classes();
 @include foundation-visibility-classes();
+@include foundation-reveal();
+@include foundation-typography-helpers();
+
 
 html, body
 {
